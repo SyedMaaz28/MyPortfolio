@@ -4,13 +4,20 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Syed Ahmeduddin Maaz",
   initials: "MZ",
-  url: "https://dillion.io",
+  url: "https://bayzah.in",
   location: "Aurangabad , India",
   // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Engineer turned Entrepreneur!! Computer Science graduate, Tech & Data Enthusiast, Love to Travel, Footballer ⚽️",
   summary:
-    "I’m **Syed Ahmeduddin Maaz** aka MOODY — a Computer Science graduate and a Data Science student at IIT Madras, deeply passionate about Generative AI, LLMs, and data-driven innovation.With a strong foundation in Python, LangChain and AI frameworks,I build intelligent systems that solve real-world problems. I’m also the founder of **Bayzah.in Ventures**, a freelancing firm focused on delivering impactful AI and Digital solutions. Outside of tech, I’m building **Muslim Halaqah**, a content platform for Islamic knowledge, and I love blending my interests in deen, design, and data.",
+    '- I’m **Syed Ahmeduddin Maaz** aka MOODY — a Computer Science graduate and a Data Science student at IIT Madras, deeply passionate about Data Science , AIML , Generative AI, LLMs, and data-driven innovation.\n'
+    + 'With a strong foundation in Python, LangChain and AI frameworks,I build intelligent systems that solve real-world problems.\n'
+    + '- I’m also the founder of **Bayzah.in Ventures**, a freelancing firm focused on delivering impactful AI and Digital solutions.\n'
+    + '- Outside of tech, I’m building **Muslim Halaqah**, a content platform for Islamic knowledge, and I love blending my interests in deen, design, and data.\n'
+    + '- A part from this, I actively organize and manage city-wide football tournaments, most notably the **Futsal Showdown**. These high-energy, fast-paced events attract top-tier teams and passionate players from across the city. With notable guests such as **MLAs**, **local leaders**, and **public figures** attending as chief guests, the tournament has grown into more than just a sports event — it’s a celebration of community, leadership, and the spirit of the game.',
+
+
+
   avatarUrl: "/me.png",
   skills: [
     "Python",
@@ -67,6 +74,14 @@ export const DATA = {
     "Streamlit",
     "Generative AI",
     "Agentic AI",
+    "Canva",
+    "Figma",
+    "Landing Page Creation",
+    "Digital Branding",
+    "Team Management",
+    "Event Organization",
+    "Tournament Management",
+    "Community Engagement",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -116,15 +131,37 @@ export const DATA = {
   work: [
     {
       company: "Bayzah Ventures",
-      href: "https://atomic.finance",
+      // href: "https://atomic.finance",
       badges: [],
       location: "Remote",
-      title: "Founder",
+      title: " Co Founder",
       logoUrl: "/Bayzah.png",
       start: "July 2025",
       end: "Present",
       description:
-        "Bayzah.in Ventures is a creative-tech freelancing firm founded by Syed Maaz and Khalid Quadri, Shopify & e-commerce store development, AI/LLM applications, web development, and digital content creation.",
+        "Bayzah.in Ventures is a creative-tech freelancing firm focuses on Shopify & e-commerce store development, AI/LLM applications, Web development, SAAS and digital content creation.",
+    },
+    {
+      company: "Code Crafters IIT Madras",
+      badges: [],
+      location: "Remote",
+      title: "Content Creator | Editorial Team Member",
+      logoUrl: "/Codecrafters.jpeg",
+      start: "Feb 2024",
+      end: "July 2025",
+      description:
+        "This initiative aims to cultivate a stimulating environment where students can learn, practice, and refine their coding skills, fostering a community of like-minded individuals passionate about the world of programming. Graphic Design · Poster Design · Posters · Microsoft Word · Presentations · Canva",
+    },
+    {
+      company: "ProAzure Software Solutions Pvt. Ltd",
+      badges: [],
+      location: "Remote",
+      title: "Intership Trainee",
+      logoUrl: "/proazure.jpeg",
+      start: "August 2021",
+      end: "September 2021",
+      description:
+        "HTML · Cascading Style Sheets (CSS) · Python (Programming Language)",
     },
 
   
@@ -149,7 +186,7 @@ export const DATA = {
     {
       school: "Government Ploytechnic Aurangabad",
       href: "https://gpabad.ac.in/",
-      degree: "Dimploma in Computer Science",
+      degree: "Diploma in Computer Science",
       logoUrl: "/gpa.jpeg",
       start: "2020",
       end: "2022",
@@ -163,209 +200,160 @@ export const DATA = {
       end: "2019",
     },
   ],
+// ---------------------------------------------------------------------------------------------------------------
+
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Call Center Data Analysis",
+      href: "https://github.com/SyedMaaz28/Call-Center-Data-Analysis",
+      dates: "Jan 2025",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Analysis of Call Center Data , Finding Trends & KPI's using Microsoft Excel.Designed a dynamic dashboard to track call volumes, revenue, durations, and customer satisfaction. Visualized key trends by region, gender, and day using clean charts and metrics. Built using Power BI / Excel for fast insights and business decisions.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Microsoft Excel",
+        "Github",
+        "Data Analysis"
+      
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://github.com/SyedMaaz28/Call-Center-Data-Analysis",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "/Dashboard.png"
     },
+// ---------------------------------------------------------------------------------------------------------------
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Research ChatBot using Gemini + LangChain",
+      href: "https://github.com/SyedMaaz28/Research-ChatBot",
+      dates: "July 2023",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "A powerful Research Assistant chatbot built with Google Gemini (Pro & Embeddings), LangChain, FAISS, and Streamlit. This tool extracts, processes, and answers queries based on information scraped from any public URLs.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "LangChain",
+        "Google Gemini API",
+        "Streamlit",
+        "Python",
+        "FAISS",
+        "Unstructured",
+        "Github"
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://github.com/SyedMaaz28/Research-ChatBot",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/SyedMaaz28/Research-ChatBot",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/Chatbot.png"
     },
+    // ---------------------------------------------------------------------------------------------------------------
+
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Test Forest Regression Project",
+      href: "https://github.com/SyedMaaz28/Test-Forest-Regression-Project",
+      dates: "April 2025",
       active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+      description:"Trained Lasso, Ridge, ElasticNET Model on Algerian Forest Dataset - Solve Regression Problem. Trained model on Algerian Forest Dataset and finds FWI Index value!!",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Python",
+        "Flask",
+        "Machine Learning",
+        "Ridge",
+        "Lasso",
+        "ElasticNET ML",
+        "Github"
+ 
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://github.com/SyedMaaz28/Test-Forest-Regression-Project",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/SyedMaaz28/Test-Forest-Regression-Project",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/TestForest.png"
     },
+// ---------------------------------------------------------------------------------------------------------------
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Finance Chatbot",
+      href: "https://github.com/SyedMaaz28/BCG-GenAI-Job-Simulation?tab=readme-ov-file",
+      dates: "",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "BCG (Boston Consulting Group) Generative AI Job Simulation on Forage. The simulation involved building an AI-powered financial chatbot capable of interpreting complex financial data from SEC filings (10-K and 10-Q reports).",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Pyhton",
+        "Pandas",
+        "Rule Based Logic",
+        "Microsoft Excel",
+        "Jupyter Notebook",
+        "Github",
+
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://github.com/SyedMaaz28/BCG-GenAI-Job-Simulation?tab=readme-ov-file",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "/GEN-AI.mp4",
     },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
+
+
+    // ---------------------------------------------------------------------------------------------------------------
+
+  
   ],
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "HackNiche 2.0",
+      dates: "Jan 24 - Jan 24",
+      location: "Mumbai , India",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+      "Participated in HackNiche 2.0, a 24-hour offline hackathon organized by GDSC DJSCE . Collaborated with peers and industry professionals",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+        "hack.webp",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
     {
-      title: "Hack The North",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
+      title: "AI Hackathon",
+      dates: "Feb 24 - March 24",
+      location: "Online",
       description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+        "Participated in Jagriti 2024 AI Hackathon, solving real-world social challenges.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+        "hack1.webp",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [],
+    },
+    {
+      title: "Event Manager at Futsal Showdown",
+      dates: "Oct 2023",
+      location: "Aurangabad , India",
+      description:
+        "Organized city-wide football tournament showcasing strong project management skills.",
+      image:
+        "Futsal.jpeg",
+      // mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
    
