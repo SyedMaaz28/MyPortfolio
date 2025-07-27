@@ -1,6 +1,7 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
+
 export const DATA = {
   name: "Syed Ahmeduddin Maaz",
   initials: "MZ",
@@ -122,6 +123,13 @@ export const DATA = {
         name: "Send Email",
         url: "syedsam7676@gmail.com",
         icon: Icons.email,
+
+        navbar: true,
+      },
+      Certificates: {
+        name: "Certificates",
+        url: "https://github.com/SyedMaaz28/MyExtras-Certificates-Achievements",
+        icon: Icons.certificate,
 
         navbar: true,
       },
@@ -315,6 +323,95 @@ export const DATA = {
       image: "",
       video:
         "/GEN-AI.mp4",
+    },
+// ---------------------------------------------------------------------------------------------------------------
+    {
+      title: "RetailGPT",
+      href: "https://github.com/SyedMaaz28/RetailGPT",
+      dates: "",
+      active: true,
+      description:
+        "An end to end LLM project based on Google Gemini and Langchain. A system that can talk to MySQL database. User asks questions in a natural language and the system generates answers by converting those questions to an SQL query and then executing that query on MySQL database. A T-shirt store where they maintain their inventory, sales and discounts data in MySQL database.",
+      technologies: [
+        "Pyhton",
+        "Hugging Face embeddings",
+        "Google LLm",
+        "Streamlit",
+        "Langchain",
+        "ChromaDB",
+        "Github",
+
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/SyedMaaz28/RetailGPT",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/Retail_Q&A.png",
+      video:
+        "",
+    },
+// ---------------------------------------------------------------------------------------------------------------
+    {
+      title: "Sentiment Analysis IMDb - RNN",
+      href: "https://github.com/SyedMaaz28/Deep-Learning-RNN",
+      active: true,
+      description:
+        "A simple Recurrent Neural Network (RNN) built from scratch using TensorFlow/Keras, trained and evaluated on the IMDb movie reviews dataset for sentiment classification.",
+      technologies: [
+        "Pyhton",
+        "Tensowflow",
+        "Keras",
+        "Flask",
+        "RNN",
+        "Deep Learning",
+        "Github",
+
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/SyedMaaz28/Deep-Learning-RNN",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/RNNapp.png",
+      video:
+        "",
+    },
+// ---------------------------------------------------------------------------------------------------------------
+    {
+      title: "Next Word Prediction - LSTM",
+      href: "https://github.com/SyedMaaz28/Predicting-Next-Word-LSTM",
+      active: true,
+      description:
+        "This project uses an LSTM-based deep learning model to predict the next word in a sequence using Shakespeare's Hamlet as the dataset. The text is preprocessed through tokenization and padding, then fed into a model with embedding and LSTM layers. After training with early stopping to prevent overfitting, the model is evaluated on sample inputs. Finally, a Streamlit web app was built to let users interactively predict the next word in real-time.",
+      technologies: [
+        "Pyhton",
+        "Tensowflow",
+        "nltk",
+        "scikit-learn",
+        "Streamlit",
+        "Pandas",
+        "Numpy",
+        "Matplotlib",
+        "LSTM",
+        "Deep Learning",
+        "Github",
+
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/SyedMaaz28/Predicting-Next-Word-LSTM",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/Image.png",
+      video:
+        "",
     },
 
 
