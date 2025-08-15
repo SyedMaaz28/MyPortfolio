@@ -1390,9 +1390,6 @@ video {
 .rounded-md {
   border-radius: calc(var(--radius) - 2px);
 }
-.rounded {
-  border-radius: 0.25rem;
-}
 .border {
   border-width: 1px;
 }

@@ -1,7 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
-
 export const DATA = {
   name: "Syed Ahmeduddin Maaz",
   initials: "MZ",
@@ -11,13 +10,11 @@ export const DATA = {
   description:
     "Engineer turned Entrepreneur!! Computer Science graduate, Tech & Data Enthusiast, Love to Travel, Footballer ⚽️",
   summary:
-    '- I’m **Syed Ahmeduddin Maaz** aka MOODY — a Computer Science graduate and a Data Science student at IIT Madras, deeply passionate about Data Science , AIML , Generative AI, LLMs, and data-driven innovation.\n'
-    + 'With a strong foundation in Python, LangChain and AI frameworks,I build intelligent systems that solve real-world problems.\n'
-    + '- I’m also the founder of **Bayzah.in Ventures**, a freelancing firm focused on delivering impactful AI and Digital solutions.\n'
-    + '- Outside of tech, I’m building **Muslim Halaqah**, a content platform for Islamic knowledge, and I love blending my interests in deen, design, and data.\n'
-    + '- A part from this, I actively organize and manage city-wide football tournaments, most notably the **Futsal Showdown**. These high-energy, fast-paced events attract top-tier teams and passionate players from across the city. With notable guests such as **MLAs**, **local leaders**, and **public figures** attending as chief guests, the tournament has grown into more than just a sports event — it’s a celebration of community, leadership, and the spirit of the game.',
-
-
+    "- I’m **Syed Ahmeduddin Maaz** aka MOODY — a Computer Science graduate and a Data Science student at IIT Madras, deeply passionate about Data Science , AIML , Generative AI, LLMs, and data-driven innovation.\n" +
+    "With a strong foundation in Python, LangChain and AI frameworks,I build intelligent systems that solve real-world problems.\n" +
+    "- I’m also the founder of **Bayzah.in Ventures**, a freelancing firm focused on delivering impactful AI and Digital solutions.\n" +
+    "- Outside of tech, I’m building **Muslim Halaqah**, a content platform for Islamic knowledge, and I love blending my interests in deen, design, and data.\n" +
+    "- A part from this, I actively organize and manage city-wide football tournaments, most notably the **Futsal Showdown**. These high-energy, fast-paced events attract top-tier teams and passionate players from across the city. With notable guests such as **MLAs**, **local leaders**, and **public figures** attending as chief guests, the tournament has grown into more than just a sports event — it’s a celebration of community, leadership, and the spirit of the game.",
 
   avatarUrl: "/me.png",
   skills: [
@@ -171,8 +168,6 @@ export const DATA = {
       description:
         "HTML · Cascading Style Sheets (CSS) · Python (Programming Language)",
     },
-
-  
   ],
   education: [
     {
@@ -208,7 +203,7 @@ export const DATA = {
       end: "2019",
     },
   ],
-// ---------------------------------------------------------------------------------------------------------------
+  // ---------------------------------------------------------------------------------------------------------------
 
   projects: [
     {
@@ -218,12 +213,7 @@ export const DATA = {
       active: true,
       description:
         "Analysis of Call Center Data , Finding Trends & KPI's using Microsoft Excel.Designed a dynamic dashboard to track call volumes, revenue, durations, and customer satisfaction. Visualized key trends by region, gender, and day using clean charts and metrics. Built using Power BI / Excel for fast insights and business decisions.",
-      technologies: [
-        "Microsoft Excel",
-        "Github",
-        "Data Analysis"
-      
-      ],
+      technologies: ["Microsoft Excel", "Github", "Data Analysis"],
       links: [
         {
           type: "Website",
@@ -231,9 +221,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/Dashboard.png"
+      image: "/Dashboard.png",
     },
-// ---------------------------------------------------------------------------------------------------------------
+    // ---------------------------------------------------------------------------------------------------------------
     {
       title: "Research ChatBot using Gemini + LangChain",
       href: "https://github.com/SyedMaaz28/Research-ChatBot",
@@ -248,7 +238,7 @@ export const DATA = {
         "Python",
         "FAISS",
         "Unstructured",
-        "Github"
+        "Github",
       ],
       links: [
         {
@@ -262,41 +252,74 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/Chatbot.png"
+      image: "/Chatbot.png",
     },
     // ---------------------------------------------------------------------------------------------------------------
 
     {
-      title: "Test Forest Regression Project",
-      href: "https://github.com/SyedMaaz28/Test-Forest-Regression-Project",
-      dates: "April 2025",
+      title: "AI Anime Recommender System",
+      href: "https://github.com/SyedMaaz28/LLMOPS-Anime-Recommender",
+      dates: "July 2025",
       active: true,
-      description:"Trained Lasso, Ridge, ElasticNET Model on Algerian Forest Dataset - Solve Regression Problem. Trained model on Algerian Forest Dataset and finds FWI Index value!!",
+      description:
+        "AI Anime Recommender System using Groq , Langchain and Chroma DB as Vector Store",
       technologies: [
         "Python",
-        "Flask",
-        "Machine Learning",
-        "Ridge",
-        "Lasso",
-        "ElasticNET ML",
-        "Github"
- 
+        "Streamlit",
+        "Groq",
+        "Langchain",
+        "Chroma DB",
+        "Github",
       ],
       links: [
         {
           type: "Website",
-          href: "https://github.com/SyedMaaz28/Test-Forest-Regression-Project",
+          href: "https://github.com/SyedMaaz28/LLMOPS-Anime-Recommender",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/SyedMaaz28/Test-Forest-Regression-Project",
+          href: "https://github.com/SyedMaaz28/LLMOPS-Anime-Recommender",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/TestForest.png"
+      image: "",
+      video: "/Anime.mov",
     },
-// ---------------------------------------------------------------------------------------------------------------
+    // ---------------------------------------------------------------------------------------------------------------
+    // ---------------------------------------------------------------------------------------------------------------
+    {
+      title: "Who Is That - AI",
+      href: "https://github.com/SyedMaaz28/Who-Is-That",
+      dates: "August 2025",
+      active: true,
+      description:
+        "Celebrity Detector & QA using Kubernetes, CircleCI, Groq, Llama-4, OpenCV , Flask !!!",
+      technologies: [
+        "Python",
+        "Flask",
+        "Groq",
+        "Langchain",
+        "OpenCV",
+        "Llama4",
+        "Github",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/SyedMaaz28/Who-Is-That",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/SyedMaaz28/Who-Is-That",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Whoisthat.png",
+    },
+
+    // ---------------------------------------------------------------------------------------------------------------
     {
       title: "Finance Chatbot",
       href: "https://github.com/SyedMaaz28/BCG-GenAI-Job-Simulation?tab=readme-ov-file",
@@ -311,7 +334,6 @@ export const DATA = {
         "Microsoft Excel",
         "Jupyter Notebook",
         "Github",
-
       ],
       links: [
         {
@@ -321,10 +343,9 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "/GEN-AI.mp4",
+      video: "/GEN-AI.mp4",
     },
-// ---------------------------------------------------------------------------------------------------------------
+    // ---------------------------------------------------------------------------------------------------------------
     {
       title: "RetailGPT",
       href: "https://github.com/SyedMaaz28/RetailGPT",
@@ -340,7 +361,6 @@ export const DATA = {
         "Langchain",
         "ChromaDB",
         "Github",
-
       ],
       links: [
         {
@@ -350,10 +370,9 @@ export const DATA = {
         },
       ],
       image: "/Retail_Q&A.png",
-      video:
-        "",
+      video: "",
     },
-// ---------------------------------------------------------------------------------------------------------------
+    // ---------------------------------------------------------------------------------------------------------------
     {
       title: "Sentiment Analysis IMDb - RNN",
       href: "https://github.com/SyedMaaz28/Deep-Learning-RNN",
@@ -368,7 +387,6 @@ export const DATA = {
         "RNN",
         "Deep Learning",
         "Github",
-
       ],
       links: [
         {
@@ -378,10 +396,9 @@ export const DATA = {
         },
       ],
       image: "/RNNapp.png",
-      video:
-        "",
+      video: "",
     },
-// ---------------------------------------------------------------------------------------------------------------
+    // ---------------------------------------------------------------------------------------------------------------
     {
       title: "Next Word Prediction - LSTM",
       href: "https://github.com/SyedMaaz28/Predicting-Next-Word-LSTM",
@@ -400,7 +417,6 @@ export const DATA = {
         "LSTM",
         "Deep Learning",
         "Github",
-
       ],
       links: [
         {
@@ -410,14 +426,41 @@ export const DATA = {
         },
       ],
       image: "/Image.png",
-      video:
-        "",
+      video: "",
     },
 
-
     // ---------------------------------------------------------------------------------------------------------------
-
-  
+    {
+      title: "Test Forest Regression Project",
+      href: "https://github.com/SyedMaaz28/Test-Forest-Regression-Project",
+      dates: "April 2025",
+      active: true,
+      description:
+        "Trained Lasso, Ridge, ElasticNET Model on Algerian Forest Dataset - Solve Regression Problem. Trained model on Algerian Forest Dataset and finds FWI Index value!!",
+      technologies: [
+        "Python",
+        "Flask",
+        "Machine Learning",
+        "Ridge",
+        "Lasso",
+        "ElasticNET ML",
+        "Github",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/SyedMaaz28/Test-Forest-Regression-Project",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/SyedMaaz28/Test-Forest-Regression-Project",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/TestForest.png",
+    },
+    // -----------------------------------------------------------------------------------------------------------
   ],
   hackathons: [
     {
@@ -425,9 +468,8 @@ export const DATA = {
       dates: "Jan 24 - Jan 24",
       location: "Mumbai , India",
       description:
-      "Participated in HackNiche 2.0, a 24-hour offline hackathon organized by GDSC DJSCE . Collaborated with peers and industry professionals",
-      image:
-        "hack.webp",
+        "Participated in HackNiche 2.0, a 24-hour offline hackathon organized by GDSC DJSCE . Collaborated with peers and industry professionals",
+      image: "hack.webp",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
@@ -437,8 +479,7 @@ export const DATA = {
       location: "Online",
       description:
         "Participated in Jagriti 2024 AI Hackathon, solving real-world social challenges.",
-      image:
-        "hack1.webp",
+      image: "hack1.webp",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
@@ -448,13 +489,9 @@ export const DATA = {
       location: "Aurangabad , India",
       description:
         "Organized city-wide football tournament showcasing strong project management skills.",
-      image:
-        "Futsal.jpeg",
+      image: "Futsal.jpeg",
       // mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
-   
-
   ],
-
 } as const;
